@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; /* Increase the padding to create more space between navigation links */
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+  background-color: #90ee90; /* Mauve background color for the main element */
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #333333;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 20px; 
+}
+
+
