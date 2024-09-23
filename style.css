@@ -31,7 +31,7 @@ nav a {
   text-decoration: none;
   padding: 10px 20px; /* Increase the padding to create more space between navigation links */
   margin: 0 5px;
-  border-radius: 5px;
+  border-radius: 35px;
 }
 
 nav a:hover {
